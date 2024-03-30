@@ -1,0 +1,19 @@
+﻿<Window x:Class="YouTubePlayer.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:YouTubePlayer"
+        mc:Ignorable="d"
+        Title="YouTubePlayer" Height="150" Width="400" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <StackPanel>
+            <TextBlock Text="Введите URL видео или плейлиста"/>
+            <TextBox x:Name="UrlBox"/>
+            <Button Content="Start" Click="StartButton"/>
+            <!--<Button Content="Pause" Click="PauseButton"/>-->
+            <Button Content="Skip" Click="SkipButton"/>
+            <!--<Button Content="Stop" Click="StopButton"/>-->
+        </StackPanel>
+    </Grid>
+</Window>
